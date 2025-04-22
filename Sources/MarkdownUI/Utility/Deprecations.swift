@@ -42,6 +42,7 @@ extension BlockStyle where Configuration == BlockConfiguration {
   }
 }
 
+@available(iOS 15.0, *)
 extension View {
   @available(
     *,
@@ -79,6 +80,7 @@ extension View {
   }
 }
 
+@available(iOS 15.0, *)
 extension Theme {
   @available(
     *,
@@ -333,6 +335,7 @@ public struct MarkdownImageHandler {
   }
 }
 
+@available(iOS 15.0, *)
 extension Markdown {
   @available(
     *,
